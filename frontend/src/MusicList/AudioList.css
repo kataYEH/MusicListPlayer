@@ -1,0 +1,28 @@
+.AudioFiles
+{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: solid 1px black;
+    background-color: rgb(0, 0, 0,.03);
+    max-height: 80vh;
+    overflow: auto;
+}
+.AudioRow
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    margin-top: 1rem;
+}
+.AudioName
+{
+    flex: 1;
+    font-weight: bold
+}
+.Audio
+{
+    flex: 4;
+    
+}
